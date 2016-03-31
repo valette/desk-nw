@@ -1,0 +1,20 @@
+{
+  "name": "desk-nw",
+  "description": "nw.js version of DESK",
+  "license" : "CECILL-B",
+  "main": "node_modules/desk-ui/build/index.html",
+  "author": "Sebastien Valette <sebastien.valette@creatis.insa-lyon.fr> (http://www.creatis.insa-lyon.fr/~valette)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/valette/desk-nw.git"
+  },
+  "dependencies": {
+    "desk-base": ">0.0.0",
+    "desk-ui": ">0.0.0"
+  }
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
