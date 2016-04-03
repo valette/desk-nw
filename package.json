@@ -13,6 +13,12 @@
     "desk-base": ">0.0.0",
     "desk-ui": ">0.0.0"
   },
+  "window": {
+    "toolbar": true
+  },
+  "scripts" : {
+    "buildAddons": "node node_modules/desk-ui/lib/buildAddons.js"
+  },
   "engines": {
     "node": "*"
   }
