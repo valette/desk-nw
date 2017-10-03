@@ -1,7 +1,7 @@
 {
   "name": "desk-nw",
   "description": "nw.js version of DESK",
-  "license" : "CECILL-B",
+  "license": "CECILL-B",
   "main": "node_modules/desk-ui/build/index.html",
   "author": "Sebastien Valette <sebastien.valette@creatis.insa-lyon.fr> (http://www.creatis.insa-lyon.fr/~valette)",
   "version": "0.1.0",
@@ -11,12 +11,14 @@
   },
   "dependencies": {
     "desk-base": ">0.0.0",
-    "desk-ui": ">0.0.0"
+    "desk-ui": ">0.0.0",
+    "nw": "^0.25.4"
   },
   "window": {
     "toolbar": true
   },
-  "scripts" : {
+  "scripts": {
+    "start" : "nw .",
     "buildAddons": "node node_modules/desk-ui/source/buildAddons.js"
   },
   "engines": {

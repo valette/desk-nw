@@ -11,6 +11,18 @@ a live demo is visible here: [https://desk.creatis.insa-lyon.fr/demo/](https://d
 
 more infos? Click here [http://www.creatis.insa-lyon.fr/site/fr/desk](http://www.creatis.insa-lyon.fr/site/fr/desk)
 
+### Installation/Usage ###
+
+	git clone https://github.com/valette/desk-nw
+	cd desk-nw
+	npm install
+
+then
+
+	npm start
+
+to launch the app
+
 ### License ###
 CeCILL-B (BSD-compatible), if you use this code for academic purposes, please cite this article:
 
