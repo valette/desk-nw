@@ -10,15 +10,15 @@
     "url": "git://github.com/valette/desk-nw.git"
   },
   "dependencies": {
-    "desk-base": ">0.0.0",
-    "desk-ui": ">0.0.0",
-    "nw": "^0.25.4"
+    "desk-base": "1.0.2",
+    "desk-ui": "1.0.1",
+    "nw": "0.26.0"
   },
   "window": {
     "toolbar": true
   },
   "scripts": {
-    "start" : "nw .",
+    "start": "nw .",
     "buildAddons": "node node_modules/desk-ui/source/buildAddons.js"
   },
   "engines": {
