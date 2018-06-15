@@ -10,9 +10,9 @@
     "url": "git://github.com/valette/desk-nw.git"
   },
   "dependencies": {
-    "desk-base": "1.0.3",
-    "desk-ui": "1.0.1",
-    "nw": "0.27.5"
+    "desk-base": "1.1.0",
+    "desk-ui": "1.1.1",
+    "nw": "0.30.2"
   },
   "window": {
     "toolbar": true
