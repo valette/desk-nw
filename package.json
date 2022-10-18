@@ -2,17 +2,17 @@
   "name": "desk-nw",
   "description": "nw.js version of DESK",
   "license": "CECILL-B",
-  "main": "node_modules/desk-ui/build/index.html",
+  "main": "node_modules/desk-ui/compiled/dist/index.html",
   "author": "Sebastien Valette <sebastien.valette@creatis.insa-lyon.fr> (http://www.creatis.insa-lyon.fr/~valette)",
-  "version": "0.2.0",
+  "version": "3.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/valette/desk-nw.git"
   },
   "dependencies": {
-    "desk-base": "1.3.0",
-    "desk-ui": "1.2.0",
-    "nw": "0.33.0"
+    "desk-base": "1.7.1",
+    "desk-ui": "3.0.2",
+    "nw": "0.69.1"
   },
   "window": {
     "toolbar": true
